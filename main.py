@@ -13,7 +13,7 @@ import os
 CACHE_FILE = "video_cache.json"  # File to store cached results
 
 # Initialize YouTube API and Sentence Transformer model
-API_KEY = "AIzaSyCSQnlFpPMG0wzYaQqjSpJ_iSM9LS6aEdo"
+API_KEY = "YOUR API KEY"
 youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=API_KEY)
 model = SentenceTransformer('paraphrase-distilroberta-base-v1')  # Stronger model for semantic similarity
 

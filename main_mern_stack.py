@@ -6,7 +6,7 @@ from langdetect import detect
 from sklearn.preprocessing import MinMaxScaler
 
 # Initialize YouTube API and Sentence Transformer model
-API_KEY = "AIzaSyCtXn0dfzqUKQ7YHh66NCT-F1b5PuBXMk8"
+API_KEY = "YOUR API KEY"
 youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=API_KEY)
 model = SentenceTransformer('./fine_tuned_sentence_transformer')  # Stronger model for semantic similarity
 
